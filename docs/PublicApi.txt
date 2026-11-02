@@ -1,0 +1,31 @@
+BenScr.SemanticVersions.SemanticVersion : System.Object
+  Field Int32 MaximumTextLength
+  Method BenScr.SemanticVersions.SemanticVersion Parse(System.String)
+  Method Boolean Equals(BenScr.SemanticVersions.SemanticVersion)
+  Method Boolean Equals(System.Object)
+  Method Boolean ExactEquals(BenScr.SemanticVersions.SemanticVersion)
+  Method Boolean TryParse(System.String, BenScr.SemanticVersions.SemanticVersion ByRef)
+  Method Boolean get_IsPrerelease()
+  Method Boolean op_Equality(BenScr.SemanticVersions.SemanticVersion, BenScr.SemanticVersions.SemanticVersion)
+  Method Boolean op_GreaterThan(BenScr.SemanticVersions.SemanticVersion, BenScr.SemanticVersions.SemanticVersion)
+  Method Boolean op_GreaterThanOrEqual(BenScr.SemanticVersions.SemanticVersion, BenScr.SemanticVersions.SemanticVersion)
+  Method Boolean op_Inequality(BenScr.SemanticVersions.SemanticVersion, BenScr.SemanticVersions.SemanticVersion)
+  Method Boolean op_LessThan(BenScr.SemanticVersions.SemanticVersion, BenScr.SemanticVersions.SemanticVersion)
+  Method Boolean op_LessThanOrEqual(BenScr.SemanticVersions.SemanticVersion, BenScr.SemanticVersions.SemanticVersion)
+  Method Int32 Compare(BenScr.SemanticVersions.SemanticVersion, BenScr.SemanticVersions.SemanticVersion)
+  Method Int32 CompareTo(BenScr.SemanticVersions.SemanticVersion)
+  Method Int32 GetHashCode()
+  Method System.Collections.Generic.IEqualityComparer`1[BenScr.SemanticVersions.SemanticVersion] get_ExactComparer()
+  Method System.String ToString()
+  Method System.String get_BuildMetadata()
+  Method System.String get_Major()
+  Method System.String get_Minor()
+  Method System.String get_Patch()
+  Method System.String get_Prerelease()
+  Property Boolean IsPrerelease
+  Property System.Collections.Generic.IEqualityComparer`1[BenScr.SemanticVersions.SemanticVersion] ExactComparer
+  Property System.String BuildMetadata
+  Property System.String Major
+  Property System.String Minor
+  Property System.String Patch
+  Property System.String Prerelease
